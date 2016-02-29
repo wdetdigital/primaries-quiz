@@ -13,7 +13,7 @@ This repo includes two files: the source code and content to create WDET's prima
 
 WDET's regular workflow involves using CKEditor to create and manage posts, so we've kept this quiz simple and compatible by not including any external Javascript or jQuery. 
 
-If you're also working in a text editor, just copy everything between `<style>...</style>` and `<accordion>...</accordion>` from `quiz-template` and paste into your source. 
+If you're also working in a text editor, just copy everything between `<style>...</style>` and `<article>...</article>` from `quiz-template` and paste into your source. 
 
 Plan to inherit most styles from your site and make custom adjustments to the height of your question and answer sections as needed to best display your content.
 
