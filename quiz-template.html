@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		/** Style the quiz container */
+		article.accordion {
+			display: block;
+			width: 50em;
+			padding: 0.5em 0.5em 1px 0.5em;
+			margin: 0 auto;
+			background-color: #e2e2e2;
+			border-radius: 5px;
+			box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+			font-family: sans-serif;
+		}
+		/** Style the question boxes */
+		article.accordion section {
+			display: block;
+			width: 48em;
+			height: 4em;
+			padding: 0 1em;
+			margin: 0 0 0.5em 0;
+			color: #333;
+			background-color: #fff;
+			overflow: hidden;
+			border-radius: 3px;
+		}
+		/** Style the answer boxes */
+		article.accordion section:target {
+			height: 7em;
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<article class="accordion">
+		<section id="acc1">
+			<h2><a href="#acc1">Question #1</a></h2>
+			<p>Answer #1</p>
+		</section>
+		<section id="acc2">
+			<h2><a href="#acc2">Question #2</a></h2>
+			<p>Answer #2</p>
+		</section>
+		<section id="acc3">
+			<h2><a href="#acc3">Question #3</a></h2>
+			<p>Answer #3</p>
+		</section>
+	</article>
+</body>
+</html>
